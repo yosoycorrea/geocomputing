@@ -35,6 +35,20 @@ The abstract mapping framework enables:
 - Mapping academic citations and research connections
 - Visualizing semantic relationships in data
 
+## Installation
+
+Before using the abstract mapping framework, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install packages individually:
+
+```bash
+pip install networkx matplotlib pandas numpy scipy
+```
+
 ## How to Use
 
 ### 1. Prepare Your Data
