@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0060, 40.7128]
+      },
+      "properties": {
+        "name": "Placeholder Location",
+        "description": "Este es un punto de ejemplo para pruebas iniciales"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Geospatial data processing
+geopandas>=0.14.0
+folium>=0.15.0
+shapely>=2.0.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Network analysis (for future spatial network analysis)
+networkx>=3.0

@@ -1,0 +1,4 @@
+id,name,latitude,longitude,category
+1,Ubicación A,-34.6037,-58.3816,urbana
+2,Ubicación B,-33.4489,-70.6693,rural
+3,Ubicación C,19.4326,-99.1332,periurbana
