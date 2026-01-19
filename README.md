@@ -175,5 +175,3 @@ Toda interpretación, uso o extensión del ecosistema debe respetar:
 la definición de Espacio 2026,
 el Manifiesto de Integración Geo-Espacial 2026,
 y los principios éticos que los sostienen.
-
-¿Quieres que también te escriba el archivo 04-ecosistema-geo-2026.md que detalle cada componente del ecosistema con un poco más de profundidad?
