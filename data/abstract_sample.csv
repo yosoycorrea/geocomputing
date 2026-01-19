@@ -1,0 +1,9 @@
+source,target,relationship,weight
+Community_A,Community_B,cultural_exchange,0.8
+Community_B,Community_C,trade,0.6
+Community_A,Community_C,collaboration,0.9
+Organization_X,Community_A,support,0.7
+Organization_X,Community_B,funding,0.5
+Community_C,Organization_Y,partnership,0.85
+Organization_Y,Community_A,knowledge_transfer,0.75
+Community_B,Organization_Y,consultation,0.4
