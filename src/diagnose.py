@@ -83,7 +83,7 @@ def analyze_spatial_distribution(geojson_data):
         "tensions_found": len(tensions),
         "tensions": tensions,
         "feature_count": len(features),
-        "analyzed_properties": list(set().union(*[set(f.get("properties", {}).keys()) for f in features]))
+        "analyzed_properties": list(set().union(*[set(f.get("properties", {}).keys()) for f in features])) if features else []
     }
 
 

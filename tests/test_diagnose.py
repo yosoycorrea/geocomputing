@@ -74,3 +74,21 @@ def test_analyze_spatial_distribution_with_disparity():
     # Check that a population_disparity tension was found
     disparity_found = any(t["type"] == "population_disparity" for t in result["tensions"])
     assert disparity_found
+
+
+def test_analyze_spatial_distribution_empty_features():
+    """
+    Test analysis with empty features list.
+    """
+    geojson_data = {
+        "data": {
+            "type": "FeatureCollection",
+            "features": []
+        }
+    }
+    
+    result = analyze_spatial_distribution(geojson_data)
+    assert result["status"] == "success"
+    assert result["tensions_found"] == 0
+    assert result["feature_count"] == 0
+    assert result["analyzed_properties"] == []
